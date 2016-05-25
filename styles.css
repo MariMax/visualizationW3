@@ -1,0 +1,55 @@
+.node_circle {
+    stroke: #777;
+    stroke-width: 1.0px;
+}
+
+.node_label {
+    pointer-events: none;
+}
+
+.link {
+    stroke: #777;
+    stroke-opacity: .2;
+}
+
+.node_count {
+    stroke: #777;
+    stroke-width: 1.0px;
+    fill: #999;
+}
+
+text.legend {
+    font-family: Verdana;
+    font-size: 13px;
+    fill: #000;
+}
+
+.content{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.row:first-child{
+    flex-grow: 1;
+    height: 80vh;
+}
+
+.row{
+    height: 20vh;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#graph{
+    flex-grow: 1;
+    border-right:1px solid #999;
+    border-bottom:1px solid #999;
+}
+
+.picture{
+    width: 300px;
+    border-bottom: 1px solid #999;
+}
